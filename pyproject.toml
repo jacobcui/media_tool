@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "media_tool"
+version = "0.1.0"               # required but can be any version
+description = "Photo and video tool"   # required but can be any description
+authors = ["Jacob Cui <jacobcui123@gmail.com>"]      # required but can be generic
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^11.0.0"
+pyheif = "0.8.0"
+hachoir = "^3.3.0"
+flake8 = "^7.1.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.0.0"
+ruff = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

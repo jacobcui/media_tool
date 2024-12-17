@@ -10,6 +10,10 @@ pillow = "^11.0.0"
 pyheif = "0.8.0"
 hachoir = "^3.3.0"
 flake8 = "^7.1.1"
+typer = "^0.15.1"
+whisper = "^1.1.10"
+whisper-timestamped = "^1.15.8"
+tqdm = "^4.67.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
